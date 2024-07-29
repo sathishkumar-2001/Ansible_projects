@@ -13,3 +13,5 @@ ansible does the deployment in the target hosts parllelly
 
 installing ansible - python must be installed in controll node and managed nodes
 based on distribution it varies like apt install Ansible
+
+extensions required in vscode - yaml(red hat) , ansible(red hat)
