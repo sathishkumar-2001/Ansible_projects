@@ -21,6 +21,9 @@ for providing the details of the target nodes like public ip username , password
 note : we also write the inventory file in yaml format also 
 we can create inventory file at any location but if you don't want to provide the inventory location each time it will take the file default at /etc/ansible/hosts here create the inventory file
 
+there are two ways of providing the instructions to ansible using adhoc commands and playbooks in yaml format
+for smaller tasks we can use adhoc commands for multi tasks we can use playbooks
+
 Basic adhoc commands
 
 ansible -i inventory.ini -m ping all
@@ -28,4 +31,4 @@ ansible -i inventory.ini -m shell -a "apt install sshpass " all
 
 suppose if your having 10 app servers and 4 db servers now if you want install some apk in only app server is it possible ?
 yes it is possible by grouping in the inventory file like [appservers] [dbservers]
-so we can group the managed nodes 
+so we can group the managed nodes  
