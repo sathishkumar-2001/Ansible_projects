@@ -49,3 +49,4 @@ azureuser@20.244.90.173    : ok=3    changed=2    unreachable=0    failed=0    s
 
 we can also use build in ansible modules for tasks
 link -> https://docs.ansible.com/ansible/latest/collections/ansible/builtin/
+
