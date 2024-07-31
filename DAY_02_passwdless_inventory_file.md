@@ -31,4 +31,5 @@ ansible -i inventory.ini -m shell -a "apt install sshpass " all
 
 suppose if your having 10 app servers and 4 db servers now if you want install some apk in only app server is it possible ?
 yes it is possible by grouping in the inventory file like [appservers] [dbservers]
-so we can group the managed nodes  
+so we can group the managed nodes
+  
