@@ -20,3 +20,7 @@ arguments used for ansible-vault command
 	 encrypt - encrypt yaml file
 	 encrypt_string - encrypt a string
 	 rekey - Re-key a vault encrypted file
+
+we can also used openssl for passwords -> openssl rand -base64 2048
+
+ansible-vault create aws_cred.ymal --vault-password-file vault.pass
