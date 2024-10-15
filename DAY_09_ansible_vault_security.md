@@ -25,3 +25,5 @@ we can also used openssl for passwords -> openssl rand -base64 2048
 
 ansible-vault create aws_cred.ymal --vault-password-file vault.pass
 
+
+
